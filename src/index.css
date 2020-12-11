@@ -1,5 +1,10 @@
-body {
+*{
+  background-color: rgb(3, 20, 20);
+}
+  body {
   margin: 0;
+  background-color: rgb(145, 187, 226);
+  padding:0px 00px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +15,8 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.header{
+  color: red;
 }
