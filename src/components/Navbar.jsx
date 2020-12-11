@@ -23,9 +23,9 @@ function Navbar({ Name, UserID }) {
       </ReactBootStrap.NavDropdown>
     </ReactBootStrap.Nav>
     <ReactBootStrap.Nav>
-      <ReactBootStrap.Nav.Link href="#deets">More deets</ReactBootStrap.Nav.Link>
-      <ReactBootStrap.Nav.Link eventKey={2} href="#memes">
-        Dank memes
+      <ReactBootStrap.Nav.Link href="#deets">My Subscriptions</ReactBootStrap.Nav.Link>
+      <ReactBootStrap.Nav.Link eventKey={2} href="/">
+        Logout
       </ReactBootStrap.Nav.Link>
     </ReactBootStrap.Nav>
   </ReactBootStrap.Navbar.Collapse>
